@@ -9,7 +9,7 @@ fi
 # Define variables
 HOST="$1"
 USER="ec2-user"
-KEY_PATH="/home/ec2-user/GLIC-private-key.pem"
+KEY_PATH="/home/ec2-user/{env-name}-private-key.pem"
 REPO_URL="https://github.com/emcnicholas/web-traffic-generator.git"
 TARGET_DIR="web-traffic-generator"
 ENV_NAME="myenv"
