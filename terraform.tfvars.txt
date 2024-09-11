@@ -1,0 +1,33 @@
+##############
+# Environment
+##############
+env_name  = "yourEnvName"
+
+fw_per_az = 2
+
+############################################################
+#Define New VPC in a specific Region and Avilability Zone
+#############################################################
+region = "us-east-2"
+
+# List
+aws_azs = ["us-east-2a", "us-east-2b"]
+
+# Secure Firewall Credentials
+ftd_pass    = ""
+
+cdFMC       = ""
+
+cdo_token   = ""
+
+fmc_reg_key = ""
+
+fmc_nat_id  = ""
+
+ftd_performance_tier = "FTDv30"
+
+# App 1
+app1_name = "prod"
+
+# App 2
+app2_name = "dev"
